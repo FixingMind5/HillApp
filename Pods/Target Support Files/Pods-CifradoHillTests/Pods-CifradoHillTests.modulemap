@@ -1,0 +1,6 @@
+framework module Pods_CifradoHillTests {
+  umbrella header "Pods-CifradoHillTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

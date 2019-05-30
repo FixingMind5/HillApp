@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="664-zl-2A0">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Coder View Controller-->
+        <scene sceneID="8IJ-na-vZC">
+            <objects>
+                <viewController id="664-zl-2A0" customClass="CoderViewController" customModule="CifradoHill" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mvc-1e-L81">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inserta tu frase aquí:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="24A-ll-Gi5">
+                                <rect key="frame" x="20" y="216.33333333333334" width="335" height="23"/>
+                                <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="16"/>
+                                <color key="textColor" name="Buttons"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CIFRADO HILL" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HWt-bJ-Nkb">
+                                <rect key="frame" x="64" y="91" width="247" height="85.333333333333314"/>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="35"/>
+                                <color key="textColor" name="Buttons"/>
+                                <color key="highlightedColor" name="Background"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="P1B-3S-BpO">
+                                <rect key="frame" x="20" y="259.33333333333331" width="335" height="32"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YfN-tg-fyy">
+                                <rect key="frame" x="20" y="350" width="335" height="303"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="303" id="1cv-pX-ccA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PingFangSC-Thin" family="PingFang SC" pointSize="30"/>
+                                <color key="textColor" name="secretText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZVK-1p-LGX">
+                                <rect key="frame" x="0.0" y="675" width="375" height="137"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yqV-jN-psA">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="137"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8F-3o-j59">
+                                                <rect key="frame" x="20" y="25" width="335" height="57"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="117" id="Njx-zL-eXp"/>
+                                                    <constraint firstAttribute="height" constant="57" id="TYr-9T-q39"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="32"/>
+                                                <state key="normal" title="CIFRAR">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="lets_magic:" destination="664-zl-2A0" eventType="touchUpInside" id="KjD-LE-vWP"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" name="Buttons"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="h8F-3o-j59" secondAttribute="bottom" constant="55" id="2vr-eb-djy"/>
+                                            <constraint firstAttribute="trailing" secondItem="h8F-3o-j59" secondAttribute="trailing" constant="20" id="Rla-xl-7BX"/>
+                                            <constraint firstItem="h8F-3o-j59" firstAttribute="leading" secondItem="yqV-jN-psA" secondAttribute="leading" constant="20" id="Wz8-T4-evp"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="yqV-jN-psA" firstAttribute="top" secondItem="ZVK-1p-LGX" secondAttribute="top" id="0Mo-w9-EO0"/>
+                                    <constraint firstAttribute="bottom" secondItem="yqV-jN-psA" secondAttribute="bottom" id="AeS-9q-hjH"/>
+                                    <constraint firstItem="yqV-jN-psA" firstAttribute="leading" secondItem="ZVK-1p-LGX" secondAttribute="leading" id="VDs-zv-0cl"/>
+                                    <constraint firstAttribute="trailing" secondItem="yqV-jN-psA" secondAttribute="trailing" id="arz-cd-WPz"/>
+                                    <constraint firstItem="yqV-jN-psA" firstAttribute="leading" secondItem="ZVK-1p-LGX" secondAttribute="leading" id="owX-xC-IsM"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ZVK-1p-LGX" firstAttribute="top" secondItem="YfN-tg-fyy" secondAttribute="bottom" constant="22" id="ADw-1j-P43"/>
+                            <constraint firstItem="P1B-3S-BpO" firstAttribute="top" secondItem="24A-ll-Gi5" secondAttribute="bottom" constant="20" id="IqA-Kx-t8S"/>
+                            <constraint firstItem="P1B-3S-BpO" firstAttribute="leading" secondItem="vH6-Bd-SVg" secondAttribute="leading" constant="20" id="KO9-mO-GXE"/>
+                            <constraint firstItem="vH6-Bd-SVg" firstAttribute="trailing" secondItem="YfN-tg-fyy" secondAttribute="trailing" constant="20" id="LbV-Iz-a2O"/>
+                            <constraint firstItem="vH6-Bd-SVg" firstAttribute="trailing" secondItem="24A-ll-Gi5" secondAttribute="trailing" constant="20" id="M4D-Yr-Dsr"/>
+                            <constraint firstItem="ZVK-1p-LGX" firstAttribute="centerX" secondItem="YfN-tg-fyy" secondAttribute="centerX" id="ZDW-KM-715"/>
+                            <constraint firstItem="vH6-Bd-SVg" firstAttribute="trailing" secondItem="HWt-bJ-Nkb" secondAttribute="trailing" constant="64" id="Zdm-W2-9A2"/>
+                            <constraint firstItem="vH6-Bd-SVg" firstAttribute="trailing" secondItem="P1B-3S-BpO" secondAttribute="trailing" constant="20" id="kCC-xG-2dV"/>
+                            <constraint firstItem="HWt-bJ-Nkb" firstAttribute="leading" secondItem="vH6-Bd-SVg" secondAttribute="leading" constant="64" id="no0-eL-vFp"/>
+                            <constraint firstItem="YfN-tg-fyy" firstAttribute="top" secondItem="mvc-1e-L81" secondAttribute="top" constant="350" id="tPc-83-R4Z"/>
+                            <constraint firstItem="YfN-tg-fyy" firstAttribute="leading" secondItem="vH6-Bd-SVg" secondAttribute="leading" constant="20" id="vgy-Ck-I4C"/>
+                            <constraint firstItem="ZVK-1p-LGX" firstAttribute="leading" secondItem="mvc-1e-L81" secondAttribute="leading" id="w3Q-JM-4NZ"/>
+                            <constraint firstAttribute="bottom" secondItem="ZVK-1p-LGX" secondAttribute="bottom" id="wbt-TQ-ada"/>
+                            <constraint firstItem="24A-ll-Gi5" firstAttribute="leading" secondItem="vH6-Bd-SVg" secondAttribute="leading" constant="20" id="xWL-Sk-xgM"/>
+                            <constraint firstItem="HWt-bJ-Nkb" firstAttribute="top" secondItem="vH6-Bd-SVg" secondAttribute="top" constant="47" id="xo3-1Z-ggN"/>
+                            <constraint firstItem="24A-ll-Gi5" firstAttribute="top" secondItem="HWt-bJ-Nkb" secondAttribute="bottom" constant="40" id="ytN-9T-kRW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vH6-Bd-SVg"/>
+                    </view>
+                    <connections>
+                        <outlet property="normalPhrase" destination="P1B-3S-BpO" id="tRM-VX-HVX"/>
+                        <outlet property="secretText" destination="YfN-tg-fyy" id="DtV-HW-cfF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PsZ-qr-Qwv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1162.4000000000001" y="129.31034482758622"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="Background">
+            <color red="0.78823529411764703" green="0.85490196078431369" blue="1" alpha="0.81199997663497925" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Buttons">
+            <color red="0.35686274509803922" green="0.46666666666666667" blue="0.72156862745098038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="secretText">
+            <color red="0.63137254901960782" green="0.70196078431372544" blue="0.51764705882352946" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		228C32E39CEA32243A959753 /* Pods_CifradoHillUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7657ABE67C3284B40E413253 /* Pods_CifradoHillUITests.framework */; };
+		C619A133229875D300322519 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = C619A132229875D300322519 /* data.json */; };
+		C66CEC702298651000DC01CF /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66CEC6F2298651000DC01CF /* Lottie.framework */; };
+		C66CEC712298651000DC01CF /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C66CEC6F2298651000DC01CF /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C67A9AD72294517D0042C24F /* Coder.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67A9AD52294517D0042C24F /* Coder.storyboard */; };
 		C6AE969A2281F1A4007FDF45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE96992281F1A4007FDF45 /* AppDelegate.swift */; };
 		C6AE969C2281F1A4007FDF45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE969B2281F1A4007FDF45 /* ViewController.swift */; };
 		C6AE969F2281F1A4007FDF45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6AE969D2281F1A4007FDF45 /* Main.storyboard */; };
@@ -14,6 +19,12 @@
 		C6AE96A42281F1A5007FDF45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6AE96A22281F1A5007FDF45 /* LaunchScreen.storyboard */; };
 		C6AE96AF2281F1A5007FDF45 /* CifradoHillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE96AE2281F1A5007FDF45 /* CifradoHillTests.swift */; };
 		C6AE96BA2281F1A5007FDF45 /* CifradoHillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE96B92281F1A5007FDF45 /* CifradoHillUITests.swift */; };
+		C6AE96CD2281F258007FDF45 /* CoderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE96CC2281F258007FDF45 /* CoderViewController.swift */; };
+		C6B21018229866C100E37FEE /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = C6B21017229866C100E37FEE /* data.json */; };
+		C6D6FAB0229862CF00A9C8A7 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = C6D6FAAF229862CF00A9C8A7 /* Cartfile */; };
+		C6E44F8522945EE900D33ABD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6E44F8422945EE900D33ABD /* Default-568h@2x.png */; };
+		CD94707A3A48B701BCD96F0E /* Pods_CifradoHillTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46EE3A5BEC5D78FE5DAE8B3 /* Pods_CifradoHillTests.framework */; };
+		E833B93212F93E6765419289 /* Pods_CifradoHill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F915A3A69F4554D61F0AB462 /* Pods_CifradoHill.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +44,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C66CEC722298651000DC01CF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C66CEC712298651000DC01CF /* Lottie.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0D8594DF7DAAE8DDE5D703AF /* Pods-CifradoHillUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CifradoHillUITests.release.xcconfig"; path = "Target Support Files/Pods-CifradoHillUITests/Pods-CifradoHillUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7657ABE67C3284B40E413253 /* Pods_CifradoHillUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CifradoHillUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F15C406913750B2ABD337A /* Pods-CifradoHill.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CifradoHill.release.xcconfig"; path = "Target Support Files/Pods-CifradoHill/Pods-CifradoHill.release.xcconfig"; sourceTree = "<group>"; };
+		9185C4C8C5525EA54C09EB53 /* Pods-CifradoHillTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CifradoHillTests.debug.xcconfig"; path = "Target Support Files/Pods-CifradoHillTests/Pods-CifradoHillTests.debug.xcconfig"; sourceTree = "<group>"; };
+		933B6CDF3A7CE923F5E94B39 /* Pods-CifradoHill.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CifradoHill.debug.xcconfig"; path = "Target Support Files/Pods-CifradoHill/Pods-CifradoHill.debug.xcconfig"; sourceTree = "<group>"; };
+		AC0CF16D8F0287B14D947A54 /* Pods-CifradoHillTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CifradoHillTests.release.xcconfig"; path = "Target Support Files/Pods-CifradoHillTests/Pods-CifradoHillTests.release.xcconfig"; sourceTree = "<group>"; };
+		B46EE3A5BEC5D78FE5DAE8B3 /* Pods_CifradoHillTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CifradoHillTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C619A132229875D300322519 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		C66CEC6F2298651000DC01CF /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
+		C67A9AD62294517D0042C24F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CifradoHill/Main/Base.lproj/Coder.storyboard; sourceTree = "<group>"; };
 		C6AE96962281F1A4007FDF45 /* CifradoHill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CifradoHill.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6AE96992281F1A4007FDF45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6AE969B2281F1A4007FDF45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +82,12 @@
 		C6AE96B52281F1A5007FDF45 /* CifradoHillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CifradoHillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6AE96B92281F1A5007FDF45 /* CifradoHillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CifradoHillUITests.swift; sourceTree = "<group>"; };
 		C6AE96BB2281F1A5007FDF45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6AE96CC2281F258007FDF45 /* CoderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoderViewController.swift; sourceTree = "<group>"; };
+		C6B21017229866C100E37FEE /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		C6D6FAAF229862CF00A9C8A7 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		C6E44F8422945EE900D33ABD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D4D9ECACDE563A0B0A7B239B /* Pods-CifradoHillUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CifradoHillUITests.debug.xcconfig"; path = "Target Support Files/Pods-CifradoHillUITests/Pods-CifradoHillUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F915A3A69F4554D61F0AB462 /* Pods_CifradoHill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CifradoHill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C66CEC702298651000DC01CF /* Lottie.framework in Frameworks */,
+				E833B93212F93E6765419289 /* Pods_CifradoHill.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD94707A3A48B701BCD96F0E /* Pods_CifradoHillTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +112,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				228C32E39CEA32243A959753 /* Pods_CifradoHillUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D106B7F477E5DA9B18C008A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				933B6CDF3A7CE923F5E94B39 /* Pods-CifradoHill.debug.xcconfig */,
+				79F15C406913750B2ABD337A /* Pods-CifradoHill.release.xcconfig */,
+				9185C4C8C5525EA54C09EB53 /* Pods-CifradoHillTests.debug.xcconfig */,
+				AC0CF16D8F0287B14D947A54 /* Pods-CifradoHillTests.release.xcconfig */,
+				D4D9ECACDE563A0B0A7B239B /* Pods-CifradoHillUITests.debug.xcconfig */,
+				0D8594DF7DAAE8DDE5D703AF /* Pods-CifradoHillUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C6AE968D2281F1A4007FDF45 = {
 			isa = PBXGroup;
 			children = (
+				C66CEC6F2298651000DC01CF /* Lottie.framework */,
+				C6D6FAAF229862CF00A9C8A7 /* Cartfile */,
+				C6E44F8422945EE900D33ABD /* Default-568h@2x.png */,
 				C6AE96982281F1A4007FDF45 /* CifradoHill */,
 				C6AE96AD2281F1A5007FDF45 /* CifradoHillTests */,
 				C6AE96B82281F1A5007FDF45 /* CifradoHillUITests */,
 				C6AE96972281F1A4007FDF45 /* Products */,
+				4D106B7F477E5DA9B18C008A /* Pods */,
+				DE44925DDD5BCB278A2C485D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +160,10 @@
 		C6AE96982281F1A4007FDF45 /* CifradoHill */ = {
 			isa = PBXGroup;
 			children = (
-				C6AE96992281F1A4007FDF45 /* AppDelegate.swift */,
-				C6AE969B2281F1A4007FDF45 /* ViewController.swift */,
-				C6AE969D2281F1A4007FDF45 /* Main.storyboard */,
-				C6AE96A02281F1A5007FDF45 /* Assets.xcassets */,
-				C6AE96A22281F1A5007FDF45 /* LaunchScreen.storyboard */,
 				C6AE96A52281F1A5007FDF45 /* Info.plist */,
+				C6AE96C92281F1CE007FDF45 /* Codificador */,
+				C6AE96C82281F1C4007FDF45 /* Main */,
+				C6AE96C72281F1B1007FDF45 /* Base */,
 			);
 			path = CifradoHill;
 			sourceTree = "<group>";
@@ -125,6 +186,46 @@
 			path = CifradoHillUITests;
 			sourceTree = "<group>";
 		};
+		C6AE96C72281F1B1007FDF45 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C6B21017229866C100E37FEE /* data.json */,
+				C6AE96A02281F1A5007FDF45 /* Assets.xcassets */,
+				C6AE96A22281F1A5007FDF45 /* LaunchScreen.storyboard */,
+				C6AE96992281F1A4007FDF45 /* AppDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C6AE96C82281F1C4007FDF45 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C619A132229875D300322519 /* data.json */,
+				C6AE969D2281F1A4007FDF45 /* Main.storyboard */,
+				C6AE969B2281F1A4007FDF45 /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C6AE96C92281F1CE007FDF45 /* Codificador */ = {
+			isa = PBXGroup;
+			children = (
+				C67A9AD52294517D0042C24F /* Coder.storyboard */,
+				C6AE96CC2281F258007FDF45 /* CoderViewController.swift */,
+			);
+			path = Codificador;
+			sourceTree = "<group>";
+		};
+		DE44925DDD5BCB278A2C485D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F915A3A69F4554D61F0AB462 /* Pods_CifradoHill.framework */,
+				B46EE3A5BEC5D78FE5DAE8B3 /* Pods_CifradoHillTests.framework */,
+				7657ABE67C3284B40E413253 /* Pods_CifradoHillUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6AE96BE2281F1A5007FDF45 /* Build configuration list for PBXNativeTarget "CifradoHill" */;
 			buildPhases = (
+				407FD06D521BC8E0BDB887BA /* [CP] Check Pods Manifest.lock */,
 				C6AE96922281F1A4007FDF45 /* Sources */,
 				C6AE96932281F1A4007FDF45 /* Frameworks */,
 				C6AE96942281F1A4007FDF45 /* Resources */,
+				C66CEC722298651000DC01CF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +252,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6AE96C12281F1A5007FDF45 /* Build configuration list for PBXNativeTarget "CifradoHillTests" */;
 			buildPhases = (
+				F472B56083DB0DE6CDAB6763 /* [CP] Check Pods Manifest.lock */,
 				C6AE96A62281F1A5007FDF45 /* Sources */,
 				C6AE96A72281F1A5007FDF45 /* Frameworks */,
 				C6AE96A82281F1A5007FDF45 /* Resources */,
@@ -167,6 +271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6AE96C42281F1A5007FDF45 /* Build configuration list for PBXNativeTarget "CifradoHillUITests" */;
 			buildPhases = (
+				4E16468CA989D0C56215BA7F /* [CP] Check Pods Manifest.lock */,
 				C6AE96B12281F1A5007FDF45 /* Sources */,
 				C6AE96B22281F1A5007FDF45 /* Frameworks */,
 				C6AE96B32281F1A5007FDF45 /* Resources */,
@@ -229,9 +334,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C67A9AD72294517D0042C24F /* Coder.storyboard in Resources */,
+				C6B21018229866C100E37FEE /* data.json in Resources */,
 				C6AE96A42281F1A5007FDF45 /* LaunchScreen.storyboard in Resources */,
+				C619A133229875D300322519 /* data.json in Resources */,
 				C6AE96A12281F1A5007FDF45 /* Assets.xcassets in Resources */,
+				C6E44F8522945EE900D33ABD /* Default-568h@2x.png in Resources */,
 				C6AE969F2281F1A4007FDF45 /* Main.storyboard in Resources */,
+				C6D6FAB0229862CF00A9C8A7 /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +361,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		407FD06D521BC8E0BDB887BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CifradoHill-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E16468CA989D0C56215BA7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CifradoHillUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F472B56083DB0DE6CDAB6763 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CifradoHillTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C6AE96922281F1A4007FDF45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C6AE969C2281F1A4007FDF45 /* ViewController.swift in Sources */,
+				C6AE96CD2281F258007FDF45 /* CoderViewController.swift in Sources */,
 				C6AE969A2281F1A4007FDF45 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +473,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		C67A9AD52294517D0042C24F /* Coder.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C67A9AD62294517D0042C24F /* Base */,
+			);
+			name = Coder.storyboard;
+			sourceTree = "<group>";
+		};
 		C6AE969D2281F1A4007FDF45 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -430,10 +618,15 @@
 		};
 		C6AE96BF2281F1A5007FDF45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933B6CDF3A7CE923F5E94B39 /* Pods-CifradoHill.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93Z932827W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CifradoHill/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,10 +641,15 @@
 		};
 		C6AE96C02281F1A5007FDF45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79F15C406913750B2ABD337A /* Pods-CifradoHill.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93Z932827W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CifradoHill/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,6 +664,7 @@
 		};
 		C6AE96C22281F1A5007FDF45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9185C4C8C5525EA54C09EB53 /* Pods-CifradoHillTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +686,7 @@
 		};
 		C6AE96C32281F1A5007FDF45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC0CF16D8F0287B14D947A54 /* Pods-CifradoHillTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +708,7 @@
 		};
 		C6AE96C52281F1A5007FDF45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4D9ECACDE563A0B0A7B239B /* Pods-CifradoHillUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +729,7 @@
 		};
 		C6AE96C62281F1A5007FDF45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D8594DF7DAAE8DDE5D703AF /* Pods-CifradoHillUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
